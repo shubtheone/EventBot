@@ -38,12 +38,15 @@ class UnstopScraper(BaseScraper):
 
             return self._normalize(opportunities)
         except Exception as e:
-            print(f"Error fetching Unstop events: {e}")
+            # print(f"Error fetching Unstop events: {e}") # Reduce log spam if frequent
             return []
 
     def _normalize(self, events: List[Dict]) -> List[Dict]:
         normalized = []
         for event in events:
+            if not isinstance(event, dict):
+                continue
+                
             # Unstop API fields (guessing based on common fields, refined by test)
             # title, start_date, end_date, seo_url -> url
             
