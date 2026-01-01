@@ -5,9 +5,11 @@ from typing import List, Dict
 class UnstopScraper(BaseScraper):
     def fetch_events(self) -> List[Dict]:
         """
-        Fetch upcoming Hackathons from Unstop API.
+        Fetch upcoming Competitions/Hackathons from Unstop API.
+        Matching: https://unstop.com/competitions?oppstatus=open
         """
-        api_url = "https://unstop.com/api/public/opportunity/search-result?opportunity=hackathons&per_page=20"
+        # Changed to 'competitions' and 'oppstatus=open' to match user request
+        api_url = "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&per_page=20"
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
