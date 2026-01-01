@@ -16,8 +16,18 @@ class UnstopScraper(BaseScraper):
             response = requests.get(api_url, headers=headers)
             response.raise_for_status()
             data = response.json()
-            # The structure is usually data['data']['data'] based on test
-            opportunities = data.get('data', {}).get('data', [])
+            
+            # Debug parsing: structure can be { data: { data: [...] } } or just { data: [...] }
+            # The error 'list object has no attribute get' suggests data['data'] might be a list
+            
+            opportunities = []
+            if 'data' in data:
+                inner_data = data['data']
+                if isinstance(inner_data, list):
+                    opportunities = inner_data
+                elif isinstance(inner_data, dict) and 'data' in inner_data:
+                    opportunities = inner_data['data']
+            
             return self._normalize(opportunities)
         except Exception as e:
             print(f"Error fetching Unstop events: {e}")

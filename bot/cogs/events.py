@@ -39,12 +39,12 @@ class Events(commands.Cog):
     @commands.hybrid_command(name="events", description="List upcoming CTFs")
     async def events(self, ctx, limit: int = 0):
         await ctx.defer()
-        self._send_events(ctx, limit, type_filter='CTF')
+        await self._send_events(ctx, limit, type_filter='CTF')
 
     @commands.hybrid_command(name="hackathons", description="List upcoming Hackathons (Unstop, etc.)")
     async def hackathons(self, ctx, limit: int = 0):
         await ctx.defer()
-        self._send_events(ctx, limit, type_filter='Hackathon')
+        await self._send_events(ctx, limit, type_filter='Hackathon')
 
     async def _send_events(self, ctx, limit, type_filter):
         try:
