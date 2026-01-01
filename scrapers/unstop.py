@@ -17,14 +17,25 @@ class UnstopScraper(BaseScraper):
             response.raise_for_status()
             data = response.json()
             
-            # Confirmed structure: {'data': {'data': [ ...events... ], ...}}
+            print(f"DEBUG: Unstop response type: {type(data)}")
+            # If it's a list, print first item keys to understand structure
+            if isinstance(data, list) and len(data) > 0:
+                 print(f"DEBUG: First item in list: {str(data[0])[:100]}")
+
             opportunities = []
             
+            # Case 1: Standard Dict Response { data: { data: [] } }
             if isinstance(data, dict) and 'data' in data:
                 inner = data['data']
                 if isinstance(inner, dict) and 'data' in inner:
                     opportunities = inner['data']
+                elif isinstance(inner, list):
+                     opportunities = inner
             
+            # Case 2: Direct List Response (possible protection/variation) [ ... ]
+            elif isinstance(data, list):
+                opportunities = data
+
             return self._normalize(opportunities)
         except Exception as e:
             print(f"Error fetching Unstop events: {e}")
