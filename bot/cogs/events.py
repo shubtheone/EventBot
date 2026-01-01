@@ -36,30 +36,35 @@ class Events(commands.Cog):
         with open(filename, 'w') as f:
             json.dump(data, f)
 
-    @commands.hybrid_command(name="events", description="List upcoming CTFs and Hackathons")
+    @commands.hybrid_command(name="events", description="List upcoming CTFs")
     async def events(self, ctx, limit: int = 0):
-        await ctx.defer() # Scraping might take time
-        
+        await ctx.defer()
+        self._send_events(ctx, limit, type_filter='CTF')
+
+    @commands.hybrid_command(name="hackathons", description="List upcoming Hackathons (Unstop, etc.)")
+    async def hackathons(self, ctx, limit: int = 0):
+        await ctx.defer()
+        self._send_events(ctx, limit, type_filter='Hackathon')
+
+    async def _send_events(self, ctx, limit, type_filter):
         try:
-            events = self.scraper_manager.get_all_events()
+            events = self.scraper_manager.get_all_events(type_filter=type_filter)
             
             if not events:
-                await ctx.send("No upcoming events found.")
+                await ctx.send(f"No upcoming {type_filter} events found.")
                 return
 
             if limit > 0:
-                # Show detailed embeds for the requested number of events
                 subset = events[:limit]
                 for event in subset:
                     embed = create_event_embed(event)
                     await ctx.send(embed=embed)
             else:
-                # Default summary view
                 embed = create_events_summary_embed(events)
                 await ctx.send(embed=embed)
             
         except Exception as e:
-            await ctx.send(f"An error occurred while fetching events: {str(e)}")
+            await ctx.send(f"An error occurred: {str(e)}")
 
     @commands.hybrid_command(name="watch", description="Set this channel to receive new CTF notifications")
     @commands.has_permissions(administrator=True)
