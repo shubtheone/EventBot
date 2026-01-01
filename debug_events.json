@@ -1,0 +1,66 @@
+[
+  {
+    "source": "CTFtime",
+    "title": "Scarlet CTF",
+    "description": "Start time: January 9th 12PM EST\r\nEnd time: January 12th 12PM EST\r\n\r\nCTF Hosted by the Rutgers University Security Club\r\n\r\nRegular categories: Web, Pwn, Rev, Forensics, Misc.\r\n\r\nIntended for beginners, but with some challenges catering to advanced players aswell",
+    "start_date": "2026-01-09T00:00:00+00:00",
+    "end_date": "2026-01-12T00:00:00+00:00",
+    "url": "http://ctf.rusec.club/",
+    "ctftime_url": "https://ctftime.org/event/2981/",
+    "type": "Jeopardy",
+    "logo_url": "https://ctftime.org//media/events/8ed561b45f892df2a5b105e8537794b3_1.jpg",
+    "organizers": [
+      "HolyC"
+    ],
+    "weight": 0.0,
+    "is_open": true
+  },
+  {
+    "source": "CTFtime",
+    "title": "UofTCTF 2026",
+    "description": "UofTCTF 2026 is the annual capture-the-flag competition organized by the UofTCTF team. This year\u2019s event will take place online from January 9, 2026, at 7:00 PM EST to January 11, 2026, at 7:00 PM EST. It will be a jeopardy-style CTF with classic categories like web, pwn, crypto, rev, forensics, and misc.\r\n\r\nJoin the event discord server: https://discord.gg/4mQP8Tk3JE\r\n\r\nThank you to our generous sponsors, without whom we could not run this event:\r\n- Dataflow Security\r\n- Zellic\r\n- Offsec\r\n- Binary Ninja\r\n- BugCrowd\r\n- KPMG Canada\r\n- UofT ITS\r\n- UofT DCS\r\n\r\nInfra sponsored by goo.gle/ctfsponsorship",
+    "start_date": "2026-01-10T00:00:00+00:00",
+    "end_date": "2026-01-12T00:00:00+00:00",
+    "url": "https://ctf.uoftctf.org/",
+    "ctftime_url": "https://ctftime.org/event/2969/",
+    "type": "Jeopardy",
+    "logo_url": "https://ctftime.org//media/events/uoftctf_logo_3000_black_1.png",
+    "organizers": [
+      "UofTCTF"
+    ],
+    "weight": 33.49,
+    "is_open": true
+  },
+  {
+    "source": "CTFtime",
+    "title": "SWIMMER OSINT CTF",
+    "description": "Story Driven CTF for Beginners (online JP Domestic)\r\nSWIMMER OSINT CTF\r\nby DIVER OSINT CTF\r\n\r\nJan. 17th 2026 (Sat)\r\nAM 3:10 START (UTC)\r\nCompetition Time: 12 hours (END at PM 3:10 UTC)\r\nTeam Members: 1 - 6 people\r\nLanguage: Japanese / English\r\n\r\nNOTE\r\nUnlike the DIVER OSINT CTF, the SWIMMER OSINT CTF is primarily a domestic event. \r\nMost challenge materials will be in Japanese, so you may encounter some language barriers.\r\nThat being said, participants from anywhere in the world are welcome, and we will provide support in both English and Japanese.\r\n\r\nFor more information, follow the official DIVER OSINT CTF account on X\r\nX: @DIVER_OSINT_CTF",
+    "start_date": "2026-01-17T03:10:00+00:00",
+    "end_date": "2026-01-17T15:10:00+00:00",
+    "url": "https://twitter.com/DIVER_OSINT_CTF",
+    "ctftime_url": "https://ctftime.org/event/2986/",
+    "type": "Jeopardy",
+    "logo_url": "https://ctftime.org//media/events/circle-white-text.png",
+    "organizers": [
+      "diver_osint"
+    ],
+    "weight": 0.0,
+    "is_open": true
+  },
+  {
+    "source": "CTFtime",
+    "title": "Jeanne d'Hack CTF 2026 | 3\u00e8me \u00c9dition",
+    "description": "Jeanne d'Hack CTF est une comp\u00e9tition de Capture The Flag qui mettra au d\u00e9fi vos comp\u00e9tences en s\u00e9curit\u00e9 informatique. Avec des \u00e9preuves vari\u00e9es, du Web \u00e0 la cryptographie, c'est une occasion parfaite pour tester vos connaissances et collaborer avec d'autres passionn\u00e9s. Rejoignez-nous pour une journ\u00e9e de d\u00e9fis stimulants et d'apprentissage !",
+    "start_date": "2026-01-30T09:00:00+00:00",
+    "end_date": "2026-01-30T18:00:00+00:00",
+    "url": "https://www.jeanne-hack-ctf.org/",
+    "ctftime_url": "https://ctftime.org/event/2941/",
+    "type": "Jeopardy",
+    "logo_url": "https://ctftime.org//media/events/LogoAlt.png",
+    "organizers": [
+      "Jeanne d'Hack CTF"
+    ],
+    "weight": 0.0,
+    "is_open": true
+  }
+]
