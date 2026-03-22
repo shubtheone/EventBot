@@ -1,66 +1,542 @@
 [
   {
     "source": "CTFtime",
-    "title": "Scarlet CTF",
-    "description": "Start time: January 9th 12PM EST\r\nEnd time: January 12th 12PM EST\r\n\r\nCTF Hosted by the Rutgers University Security Club\r\n\r\nRegular categories: Web, Pwn, Rev, Forensics, Misc.\r\n\r\nIntended for beginners, but with some challenges catering to advanced players aswell",
-    "start_date": "2026-01-09T00:00:00+00:00",
-    "end_date": "2026-01-12T00:00:00+00:00",
-    "url": "http://ctf.rusec.club/",
-    "ctftime_url": "https://ctftime.org/event/2981/",
+    "title": "AITU CTF 2026 Quals",
+    "description": "AITU CTF 2026 is an annual cybersecurity competition and one of the largest information security events in Kazakhstan organized by FR13NDS TEAM.\r\n\r\nThe competition consists of two stages:\r\n\r\n1) Online Qualifier - March 23, 2026\r\nFormat: Jeopardy CTF\r\nTeams of up to 5 members will compete in a wide range of cybersecurity challenges. Participation is open to teams worldwide.\r\nBased on the qualifier results, the following teams will advance to the onsite final:\r\n- Top 10 teams from Kazakhstan\r\n- Top 5 international teams\r\n\r\n2) Onsite Final - April 22\u201323, 2026\r\nAstana IT University, Astana, Kazakhstan\r\nFormat: Cyber Range Competition\r\nFinalists will compete on the cyber range, where they will face realistic Red Team scenarios designed to closely simulate real-world enterprise infrastructure, including Active Directory environments.\r\n\r\nA special highlight of the final is an additional Hardware tasks and GEOINT competition based on GeoGuessr, held in a single-elimination format. ",
+    "start_date": "2026-03-23T07:00:00+00:00",
+    "end_date": "2026-03-23T19:00:00+00:00",
+    "url": "https://ctf.fr13nds.team/",
+    "ctftime_url": "https://ctftime.org/event/3204/",
     "type": "Jeopardy",
-    "logo_url": "https://ctftime.org//media/events/8ed561b45f892df2a5b105e8537794b3_1.jpg",
+    "logo_url": "https://ctftime.org//media/events/icon-black.png",
     "organizers": [
-      "HolyC"
+      "FR13NDS TEAM"
+    ],
+    "weight": 0.0,
+    "is_open": true
+  },
+  {
+    "source": "Unstop",
+    "title": "Cyber Clash",
+    "description": "Event Planner: https://docs.google.com/spreadsheets/d/1f75tBDwhhL-ybvxKHT58_KgzROZ2ohYQ81sOPlucebM/edit?usp=sharing &nbsp; Cyber Clash &ndash; Offline Debugging Challenge Hosted by: Presidency University (PU), Bangalore About the Event: Cyber Clash is an offline, hands-on coding and security challenge that tests your expertise in: Debugging Vulnerability Assessment Web Application Security Testing Secure Coding Practices Problem Solving This event provides a platform to collaborate, innovate, and showcase technical skills in a competitive environment. Themes / Problem Statements: While exact problems will be revealed to participants, the focus will be on Security Engineering and Debugging. Eligibility &amp; Team Structure: Open to all participants Team size: 4 members Rewards &amp; Prizes: 1st Place: Cash prize, certificate, and recognition as top performer 2nd Place: Cash prize and certificate 3rd Place: Cash prize and certificate Gear up for Cyber Clash and demonstrate your security engineering and problem-solving skills in this thrilling offline challenge hosted by Presidency University, Bangalore!",
+    "start_date": "2026-03-25T00:00:00+05:30",
+    "end_date": "2026-03-25T00:00:00+05:30",
+    "url": "https://unstop.com/hackathons/cyber-clash-presidency-university-pu-bangalore-1651268",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69a567e5eb790_innovatex_main_logo_1.png",
+    "organizers": [
+      "Presidency University (PU), Bangalore"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "\u20b93,000 | \u20b92,000 | \u20b91,000",
+    "fee": "Paid",
+    "registrations": 51
+  },
+  {
+    "source": "Unstop",
+    "title": "Capture the Flag \u2014 Mini Cyber",
+    "description": "Event Planner: https://docs.google.com/spreadsheets/d/1f75tBDwhhL-ybvxKHT58_KgzROZ2ohYQ81sOPlucebM/edit?usp=sharing &nbsp; INNOVATEX 4.0 &mdash; Capture the Flag (Mini Cyber) Overview: An online cybersecurity competition hosted by Presidency University's MakerSpace Cluster. Duration: 1.5 hours Domains Covered: Cryptography, Reverse Engineering, Web Exploitation, Digital Forensics Eligibility: Solo participants or two-member teams Must register in advance Competition Flow: Round 1 (60 min): Solve as many challenges as possible across all domains. Round 2 (30 min): Top performers face advanced, high-pressure challenges. Final Evaluation: Scores are tallied and results announced. Key Rules: No AI tools, automated scripts, or external collaboration. Flags must be submitted via the official platform; write-ups (PDF/PPT) may be required. Late submissions: -10 points; incomplete/pre-built work: -20 points. Cheating, plagiarism, or attacks on the platform = immediate disqualification and permanent ban. Judging Criteria: Innovation &ndash; 25% Technical Implementation &ndash; 25% Functionality &ndash; 20% Real-World Practicality &ndash; 20% Documentation &ndash; 10% Note: Judges&rsquo; decisions are final. Disputes must be raised within 10 minutes of the result declaration.",
+    "start_date": "2026-03-25T00:00:42+05:30",
+    "end_date": "2026-03-25T00:00:42+05:30",
+    "url": "https://unstop.com/hackathons/capture-the-flag-mini-cyber-presidency-university-pu-bangalore-1650771",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69a5131510a45_invotex_logo_.jpeg",
+    "organizers": [
+      "Presidency University (PU), Bangalore"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "\u20b93,000 | \u20b92,000 | \u20b91,000",
+    "fee": "Paid",
+    "registrations": 47
+  },
+  {
+    "source": "Unstop",
+    "title": "MythX: A Nation Level Cybersecurity CTF Challenge",
+    "description": "MYTHX: AN ENDGAME PROTOCOL:&nbsp;A National-Level Cybersecurity Summit &amp; Capture The Flag (CTF) Championship Step into the battlefield of modern cybersecurity. MythX is not a typical CTF Challenge. It is a high-intensity, real-world simulation designed to test your ability to think, exploit, and defend like a true cybersecurity professional. \ufe0fwhat Makes Mythx different? Real-World, System-Based Challenges. Multi-Stage Attack Chains &amp; Business Logic Vulnerabilities Web, Network, Osint, Stegno, Cryptography, Reverse Engineering &amp; Forensics Challenges Industry-Inspired Scenarios Designed for Serious Participants Competition Structure: Round 1: Online Qualifier (jeopardy-Style Ctf) Round 2: Offline Grand Finale (advanced Ctf) at Kiet Campus Event Timeline: Online Qualifier: 28 March 2026 Offline Finals: 11&ndash;12 April 2026 Duration: Online Round: 24 Hrs Offline Finals: 21 Hrs Team Structure: Team Size: 1&ndash;4 Members Cross-College Teams Allowed Eligibility: Open to Students and Cybersecurity Enthusiasts Across India Rewards &amp; Benefits: 1 Lac+ Worth of Cash Prizes and Exciting Rewards Certificates for Participants and Winners Networking with Cybersecurity Experts &amp; Industry Professionals Free Access to Summit, Expo and Speaker Sessions in The Mythx Summit Important Note (offline Finals): Shortlisted Teams for The Offline Grand Finale Will Be Required to Pay a Nominal Fee. This Fee Covers Food and Accommodation Arrangements during the Offline Event. Rules &amp; Guidelines: No Brute-Force Attacks on Platform Infrastructure No DDoS or Service Disruption Attempts Fair Play Is Mandatory Any Malpractice Will Lead to Disqualification Organizers&rsquo; Decision Will Be Final Selection Process: Top-Performing Teams from The Online Qualifier Will Be Invited to Compete in The Offline Finals at Kiet. Prepare. Exploit. Adapt. &nbsp; Welcome to The Endgame. Contact Details: For Any Queries or Support: Phone: +91 8115749813 Email: support@mythxofficial.Online Website: https://summit.mythxofficial.online",
+    "start_date": "2026-03-25T23:59:00+05:30",
+    "end_date": "2026-03-25T23:59:00+05:30",
+    "url": "https://unstop.com/competitions/mythx-a-nation-level-cybersecurity-ctf-challenge-mythx-cybersecurity-summit-and-innovation-challenge-kiet-g-1661173",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69b9cc7d7016d_m.png",
+    "organizers": [
+      "KIET Group of Institutions"
+    ],
+    "weight": 0,
+    "onsite": false,
+    "prize": "\u20b940,000 | \u20b930,000 | \u20b920,000",
+    "fee": "Free",
+    "registrations": 617
+  },
+  {
+    "source": "Unstop",
+    "title": "CTF \u2013 Cybersecurity Challenge",
+    "description": "About The Event: CTF is a high-intensity cybersecurity competition where participants solve technical challenges in two hours inspired by real-world security scenarios. Participants must crack codes, discover vulnerabilities, and solve digital puzzles to capture hidden flags. Each flag represents a secret code that earns points and moves teams higher on the leaderboard. The event encourages logical thinking, problem-solving, and hands-on cybersecurity learning. Day 1 of Cognoise x Opportunity Summit 2026 : 31st march 2026 What Is Capture The Flag (CTF): Capture the Flag is a global cybersecurity competition format used to train ethical hackers, security researchers, and digital defenders. Participants solve challenges across multiple cybersecurity domains. Every solved challenge reveals a hidden flag. Flags follow the format: COGNOISE{your_flag_here}. Challenge Categories: Participants will solve challenges from the following domains: Web Security &ndash; Identifying vulnerabilities in web applications Cryptography &ndash; Breaking ciphers and decoding encrypted messages Digital Forensics &ndash; Investigating files and recovering hidden evidence OSINT &ndash; Using open-source intelligence to gather information and trace digital clues Event Format: Team-based competition with 2 &ndash; 4 members per team Automated judging through the competition platform Experienced judges will supervise and assist during the competition A live leaderboard will update scores in real time Scoring System: Easy Challenges &ndash; 10 points Medium Challenges &ndash; 20 points Prizes &amp; Recognition: Total Prize Pool: \u20b95,100 Participation certificates will be provided to all participants Eligibility: Open to students from all colleges and disciplines Teams must consist of 2 &ndash; 4 members Rules: Challenges must be solved independently by the participating team External help from non-participants is not allowed Internet research is permitted Participants must not attack or disrupt the competition platform Sharing flags between teams is strictly prohibited Fair play and ethical conduct are mandatory Any rule violation may result in immediate disqualification. Why Participate: Gain practical exposure to cybersecurity concepts Build skills in ethical hacking, cryptography, and digital forensics Compete and collaborate with cybersecurity enthusiasts Explore cybersecurity as a potential career path Assemble your team, sharpen your problem-solving skills, and get ready to capture the flag.",
+    "start_date": "2026-03-26T00:00:00+05:30",
+    "end_date": "2026-03-26T00:00:00+05:30",
+    "url": "https://unstop.com/hackathons/ctf-cybersecurity-challenge-cognoise-x-opportunity-summit-2026-sri-aurobindo-group-of-institutions-1661151",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69b9a9e4c85e9_1000204340.png",
+    "organizers": [
+      "Sri Aurobindo Group of Institutions"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "Not specified",
+    "fee": "Free",
+    "registrations": 168
+  },
+  {
+    "source": "CTFtime",
+    "title": "Stranger's CTF - Techtrix '26",
+    "description": "Welcome to Stranger's CTF! Hosted by RCCIIT in Kolkata, India, this is a Jeopardy-style Capture The Flag competition featuring a custom, Stranger Things-themed infrastructure. \r\n\r\nPrepare to test your skills across Web Exploitation, Reverse Engineering, Binary Exploitation, Forensics, and Cryptography. \r\n\r\nWill you escape the Upside Down? \r\n\r\n* Team Size: Up to 3 members.\r\n* Format: Onsite / Jeopardy",
+    "start_date": "2026-03-26T07:30:00+00:00",
+    "end_date": "2026-03-27T07:30:00+00:00",
+    "url": "https://upsidectf.online/",
+    "ctftime_url": "https://ctftime.org/event/3188/",
+    "type": "Jeopardy",
+    "logo_url": "",
+    "organizers": [
+      "UpsideCTF"
     ],
     "weight": 0.0,
     "is_open": true
   },
   {
     "source": "CTFtime",
-    "title": "UofTCTF 2026",
-    "description": "UofTCTF 2026 is the annual capture-the-flag competition organized by the UofTCTF team. This year\u2019s event will take place online from January 9, 2026, at 7:00 PM EST to January 11, 2026, at 7:00 PM EST. It will be a jeopardy-style CTF with classic categories like web, pwn, crypto, rev, forensics, and misc.\r\n\r\nJoin the event discord server: https://discord.gg/4mQP8Tk3JE\r\n\r\nThank you to our generous sponsors, without whom we could not run this event:\r\n- Dataflow Security\r\n- Zellic\r\n- Offsec\r\n- Binary Ninja\r\n- BugCrowd\r\n- KPMG Canada\r\n- UofT ITS\r\n- UofT DCS\r\n\r\nInfra sponsored by goo.gle/ctfsponsorship",
-    "start_date": "2026-01-10T00:00:00+00:00",
-    "end_date": "2026-01-12T00:00:00+00:00",
-    "url": "https://ctf.uoftctf.org/",
-    "ctftime_url": "https://ctftime.org/event/2969/",
+    "title": "TexSAW 2026",
+    "description": "",
+    "start_date": "2026-03-27T12:00:00+00:00",
+    "end_date": "2026-03-29T12:00:00+00:00",
+    "url": "",
+    "ctftime_url": "https://ctftime.org/event/3130/",
     "type": "Jeopardy",
-    "logo_url": "https://ctftime.org//media/events/uoftctf_logo_3000_black_1.png",
+    "logo_url": "",
     "organizers": [
-      "UofTCTF"
+      "CSG"
     ],
-    "weight": 33.49,
+    "weight": 41.59,
     "is_open": true
   },
   {
     "source": "CTFtime",
-    "title": "SWIMMER OSINT CTF",
-    "description": "Story Driven CTF for Beginners (online JP Domestic)\r\nSWIMMER OSINT CTF\r\nby DIVER OSINT CTF\r\n\r\nJan. 17th 2026 (Sat)\r\nAM 3:10 START (UTC)\r\nCompetition Time: 12 hours (END at PM 3:10 UTC)\r\nTeam Members: 1 - 6 people\r\nLanguage: Japanese / English\r\n\r\nNOTE\r\nUnlike the DIVER OSINT CTF, the SWIMMER OSINT CTF is primarily a domestic event. \r\nMost challenge materials will be in Japanese, so you may encounter some language barriers.\r\nThat being said, participants from anywhere in the world are welcome, and we will provide support in both English and Japanese.\r\n\r\nFor more information, follow the official DIVER OSINT CTF account on X\r\nX: @DIVER_OSINT_CTF",
-    "start_date": "2026-01-17T03:10:00+00:00",
-    "end_date": "2026-01-17T15:10:00+00:00",
-    "url": "https://twitter.com/DIVER_OSINT_CTF",
-    "ctftime_url": "https://ctftime.org/event/2986/",
+    "title": "KalmarCTF 2026",
+    "description": "Welcome to KalmarCTF 2026, brought to you by Kalmarunionen!\r\n\r\nThe competition will take place from Friday, 27 March 2026, 17:00 UTC to Sunday, 29 March 2026, 17:00 UTC.\r\n\u26a0\ufe0f Note: Europe switches from Central European Time (CET, UTC+1) to Central European Summer Time (CEST, UTC+2) on Sunday, 29 March 2026. This means the start time is 18:00 CET, and the end time is 19:00 CEST local time.\r\n\r\nExpect sweet challenges which are both original and challenging.\r\n\r\nDiscord: https://discord.gg/adQNMZRcJU",
+    "start_date": "2026-03-27T17:00:00+00:00",
+    "end_date": "2026-03-29T17:00:00+00:00",
+    "url": "https://kalmarc.tf/",
+    "ctftime_url": "https://ctftime.org/event/2983/",
     "type": "Jeopardy",
-    "logo_url": "https://ctftime.org//media/events/circle-white-text.png",
+    "logo_url": "https://ctftime.org//media/events/kalmar-logo_1.png",
     "organizers": [
-      "diver_osint"
+      "kalmarunionen"
+    ],
+    "weight": 49.97,
+    "is_open": true
+  },
+  {
+    "source": "CTFtime",
+    "title": "HackDay 2026 - Finals",
+    "description": "The HackDay challenge is a French cybersecurity competition for graduate students.\r\n\r\nThe 25 teams selected during the online qualification phase will be invited to compete during the grand final, which will take place on-site within the ESIEE Paris engineering school.\r\n\r\nThe categories are: Crypto, Forensic, Hardware, WEB, Stegano, Reverse and more !\r\n\r\nThe three winning teams will be rewarded with many prizes.",
+    "start_date": "2026-03-27T18:00:00+00:00",
+    "end_date": "2026-03-28T18:00:00+00:00",
+    "url": "https://hackday.fr/",
+    "ctftime_url": "https://ctftime.org/event/3039/",
+    "type": "Jeopardy",
+    "logo_url": "https://ctftime.org//media/events/hackday_1.png",
+    "organizers": [
+      "HackDayCTF"
+    ],
+    "weight": 0,
+    "is_open": true
+  },
+  {
+    "source": "Unstop",
+    "title": "CyberSiege 2026: 24-Hour National Level Cybersecurity CTF Hackathon",
+    "description": "CyberSiege 2026 is a 24-hour National-Level Capture The Flag (CTF) cybersecurity hackathon organized by Alva's Institute of Engineering and Technology Department of IoT Cybersecurity&nbsp;on 30th and 31st March,2026. For direct registration visit our website: https://cybersiege.netlify.app/ This event brings together cybersecurity enthusiasts, ethical hackers, developers, and students from across the country to compete in real-world cybersecurity challenges. Participants will solve challenges across 7 domains, including: Web Exploitation Cryptography Digital Forensics Reverse Engineering OSINT Binary Exploitation Network Security Teams will compete to capture flags by solving cybersecurity challenges and climb the live leaderboard. CyberSiege aims to promote practical cybersecurity skills, innovation, and collaboration while exposing participants to real-world security scenarios. Whether you are a beginner exploring cybersecurity or an experienced hacker, CyberSiege provides an exciting platform to learn, compete, and showcase your skills. Prize Pool 25,000/- Goodies and certificates for all participants Registration Opens &ndash; 09 March, 2026Registration Closes &ndash; 27 March Midnight, 2026CTF Start &ndash; 30 March, 2026CTF End &ndash; 31 March, 2026",
+    "start_date": "2026-03-27T23:59:00+05:30",
+    "end_date": "2026-03-27T23:59:00+05:30",
+    "url": "https://unstop.com/hackathons/cybersiege-2026-24-hour-national-level-cybersecurity-ctf-hackathon-alvas-institute-of-engineering-and-technol-1660764",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69b9189b855b5_cybersiege_2026_logo_design.png",
+    "organizers": [
+      "Alvas Institute of Engineering and Technology, Mangalore, Karnataka"
+    ],
+    "weight": 0,
+    "onsite": false,
+    "prize": "\u20b912,000 | \u20b98,000 | \u20b95,000",
+    "fee": "Paid",
+    "registrations": 33
+  },
+  {
+    "source": "Unstop",
+    "title": "CyberSiege 2026: 24-Hour National Level Capture The Flag (CTF) Hackathon",
+    "description": "CyberSiege 2026 is a 24-hour National-Level Capture The Flag (CTF) Cybersecurity Hackathon organized by Alva's Institute of Engineering and Technology on 30th and 31st March, 2026. This event is designed to bring together passionate students, cybersecurity enthusiasts, and ethical hackers from across the country to test their skills in a highly competitive and collaborative environment. Participants will engage in a series of cybersecurity challenges inspired by real-world attack and defense scenarios. The competition focuses on practical problem-solving and hands-on learning in various cybersecurity domains such as Web Exploitation, Cryptography, Digital Forensics, Reverse Engineering, Binary Exploitation, and OSINT. CyberSiege aims to promote innovation, critical thinking, and technical expertise while providing participants with an opportunity to showcase their skills, learn from peers, and gain exposure to the rapidly evolving field of cybersecurity. During the 24-hour challenge, teams will solve multiple security-based problems to capture &ldquo;flags&rdquo; and earn points on the leaderboard. The teams with the highest scores will emerge as winners and receive exciting prizes, recognition, and potential opportunities for internships and networking with industry professionals. Whether you are a beginner exploring cybersecurity or an experienced hacker looking to test your abilities, CyberSiege 2026 provides the perfect platform to learn, compete, and grow.",
+    "start_date": "2026-03-27T23:59:00+05:30",
+    "end_date": "2026-03-27T23:59:00+05:30",
+    "url": "https://unstop.com/hackathons/cybersiege-2026-24-hour-national-level-capture-the-flag-ctf-hackathon-alvas-institute-of-engineering-and-tech-1659602",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69b69752664a9_cybersiege_2026_logo_design.png",
+    "organizers": [
+      "Alvas Institute Of Engineering And Technology"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "Not specified",
+    "fee": "Free",
+    "registrations": 17
+  },
+  {
+    "source": "CTFtime",
+    "title": "Codegate CTF 2026 Preliminary",
+    "description": "1. CODEGATE 2026 CTF has two divisions: Junior and General.\r\n2. Conditions of participation for each division:\r\n   - Junior Division: Individual competition, only for those born in 2008 or later.\r\n   - General Division: Team competition, for everyone else not in the Junior Division. Participants eligible for the Junior Division may also compete in the General Division, but they cannot participate in both divisions simultaneously.\r\n3. Challenges in the Junior Division may differ from those in the General Division, although there may be some common challenges.\r\n4. General Division team member limits:\r\n   - Preliminary Round: No limit on the number of team members (10 or less recommended).\r\n   - Final Round: Maximum of 4 members. The team captain has the authority to decide the team members for the final round. Remote participation is not allowed; all members must be physically present.\r\n   \r\n5. Official communication channel: Discord (We will communicate any updates during the competition via Discord).\r\n6. Questions about challenges should be asked by opening a ticket on Discord.\r\n7. Actions that may result in disqualification:\r\n   - Sharing or seeking clues, hints, flags, or answers with participants outside of your team.\r\n   - Participating in multiple teams.\r\n   - Interfering with, obstructing, or disrupting other teams, participants, or organizers (including, but not limited to, DoS and DDoS attacks).\r\n   - Attacking or spying on other teams, participants, or organizers.\r\n   - Brute-forcing flags on the *.codegate.org flag authentication system.\r\n   - Intentionally hindering others from submitting or obtaining flags.\r\n   - Participating in divisions not allowed by the rules (e.g., participating in the Junior Division if born before 2005, or participating in both the Junior and General Divisions simultaneously).\r\n   - Attacking machines or infrastructure not designated as challenges in the competition.\r\n   - Failing to provide a reasonable explanation for suspected cheating.\r\n8. Write-up submission:\r\n   - General Division: Top 25 teams must submit write-ups within 24 hours of the preliminary round ending.\r\n   - Junior Division: Top 25 participants must submit write-ups within 24 hours of the preliminary round ending.\r\n   - Write-ups should be submitted to codegateqna@gmail.com.\r\n9. Finalist teams announcement:\r\n   -  Finalists will be officially announced after organizers have reviewed the top teams' write-ups.\r\n   - The scoreboard cannot be used to confirm finalist teams, even after the preliminary round ends.\r\n   - Number of finalist teams:\r\n     - General Division: 20 teams (19 from the preliminary round, 1 from the winner of CODEGATE 2025 CTF Finals General Division).\r\n     - Junior Division: Top 20 participants from the preliminary round.\r\n   - User accounts created during preliminary registration must belong to the participant. Identification is required for the final round.\r\n   \r\n   \r\nDisclaimer: We organizers will do our best to enforce these rules. However, if a situation arises that cannot be reasonably resolved, We will hold an internal meeting to discuss the issue and communicate the decision to the affected participants.\r\n",
+    "start_date": "2026-03-28T00:00:00+00:00",
+    "end_date": "2026-03-28T15:00:00+00:00",
+    "url": "http://ctf.codegate.org/",
+    "ctftime_url": "https://ctftime.org/event/3131/",
+    "type": "Jeopardy",
+    "logo_url": "",
+    "organizers": [
+      "CODEGATE"
+    ],
+    "weight": 62.0,
+    "is_open": true
+  },
+  {
+    "source": "CTFtime",
+    "title": "NovruzCTF 2026",
+    "description": "NovruzCTF 2026 is the first edition of an annual online Jeopardy-style competition organized by QarabagTeam to celebrate the spring holiday of Novruz. Taking place in March 2026, the event welcomes participants from all over the world. While everyone can compete for glory and community recognition, a special prize pool is reserved for Azerbaijani teams: 1st place \u2013 250 AZN, 2nd place \u2013 150 AZN, 3rd place \u2013 100 AZN. Built on the principles of openness and freedom, NovruzCTF aims to foster a friendly learning environment, with future plans to evolve into an Attack-Defense format. Join us to welcome spring with puzzles, pixels, and packets!",
+    "start_date": "2026-03-28T05:00:00+00:00",
+    "end_date": "2026-03-29T05:00:00+00:00",
+    "url": "https://canyouhack.org/",
+    "ctftime_url": "https://ctftime.org/event/3200/",
+    "type": "Jeopardy",
+    "logo_url": "https://ctftime.org//media/events/IMG_4954.jpeg",
+    "organizers": [
+      "QarabagTeam"
+    ],
+    "weight": 0,
+    "is_open": true
+  },
+  {
+    "source": "CTFtime",
+    "title": "Flag Wars",
+    "description": "FLAG WARS - EPISODE IV\r\nTHE RETURN OF THE CTF\r\n\r\nThe CTF hosted by Laokoon Security, IBM and CGI returns to IBM Garage for Defense for the fourth time!\r\n100 Hackers in teams up to four players will compete against each other to win valuable prices.",
+    "start_date": "2026-03-28T09:00:00+00:00",
+    "end_date": "2026-03-28T19:00:00+00:00",
+    "url": "https://laokoon-security.com/ctf2026",
+    "ctftime_url": "https://ctftime.org/event/3084/",
+    "type": "Jeopardy",
+    "logo_url": "https://ctftime.org//media/events/image_5.png",
+    "organizers": [
+      "Laokoon SecurITy"
+    ],
+    "weight": 0,
+    "is_open": true
+  },
+  {
+    "source": "CTFtime",
+    "title": "KAALCHAKRA CTF",
+    "description": "KAALCHAKRA CTF 2026\r\n\r\nOrganised By:\r\nNational Forensic Sciences University (NFSU), Goa Campus x TH3_RANG3RS\r\n\r\nEligibility: Open to all UG/PG College Students across India\r\n\r\nPrize: \u20b92,00,000 Prize Pool & Goodies!\r\n\r\nCTF TIMELINE:\r\n\r\nRound 1 (Online Prelims): March 28, 2026 (24-Hour Battle)\r\n\r\nRound 2 (Offline Finals - Top 25): April 11, 2026 @ NFSU Goa Campus\r\n\r\nTeam Size: 1-3 \r\nEntry Fee: \u20b9300 per team (excluding taxes)\r\nRegistration Deadline: March 26, 2026\r\n\r\nDOMAINS\r\nWeb Exploitation | Cryptography | Forensics | Reverse Engineering | OSINT | AI\r\n\r\nRegister Now: https://forms.gle/WXpCAKuS7BNV2u5n9\r\n\r\nOfficial Website: kaalchakractf.com\r\n\r\nDiscord: https://discord.gg/q4Pam5h3Bd\r\n\r\nFOLLOW OUR SOCIAL CHANNELS:\r\n\r\nInstagram: instagram.com/kaalchakra_ctf\r\nLinkedIn: linkedin.com/in/kaalchakra-ctf\r\nX(Twitter): x.com/kaalchakra_ctf\r\n\r\nContact for Queries: \r\nDrop your questions in the _#queries_ channel under the Public Lobby on our official Discord server!\r\n\r\nThank you NFSU for giving this opportunity and support. Also thanks to Beeceptor as API Partner and .xyz as Inkind Partner. ",
+    "start_date": "2026-03-28T09:00:00+00:00",
+    "end_date": "2026-03-29T09:00:00+00:00",
+    "url": "https://kaalchakractf.com/",
+    "ctftime_url": "https://ctftime.org/event/3183/",
+    "type": "Jeopardy",
+    "logo_url": "https://ctftime.org//media/events/CTF_Logo1.png",
+    "organizers": [
+      "TH3_RANG3RS"
     ],
     "weight": 0.0,
     "is_open": true
   },
   {
     "source": "CTFtime",
-    "title": "Jeanne d'Hack CTF 2026 | 3\u00e8me \u00c9dition",
-    "description": "Jeanne d'Hack CTF est une comp\u00e9tition de Capture The Flag qui mettra au d\u00e9fi vos comp\u00e9tences en s\u00e9curit\u00e9 informatique. Avec des \u00e9preuves vari\u00e9es, du Web \u00e0 la cryptographie, c'est une occasion parfaite pour tester vos connaissances et collaborer avec d'autres passionn\u00e9s. Rejoignez-nous pour une journ\u00e9e de d\u00e9fis stimulants et d'apprentissage !",
-    "start_date": "2026-01-30T09:00:00+00:00",
-    "end_date": "2026-01-30T18:00:00+00:00",
-    "url": "https://www.jeanne-hack-ctf.org/",
-    "ctftime_url": "https://ctftime.org/event/2941/",
+    "title": "VolgaCTF 2026 Qualifier",
+    "description": "VolgaCTF is an international interuniversity cybersecurity competition organised by a group of IT enthusiasts in collaboration with the Institute of Informatics, Mathematics and Electronics of Samara University.\r\n\r\nVolgaCTF 2026 Qualifier is an online competition. Top teams will be invited to participate in VolgaCTF 2026 Final, which will be held in Samara, Russia on September 14-18.\r\n\r\nSign-up will be opened on March 4th.",
+    "start_date": "2026-03-28T13:00:00+00:00",
+    "end_date": "2026-03-29T13:00:00+00:00",
+    "url": "https://q.2026.volgactf.ru/",
+    "ctftime_url": "https://ctftime.org/event/3045/",
     "type": "Jeopardy",
-    "logo_url": "https://ctftime.org//media/events/LogoAlt.png",
+    "logo_url": "https://ctftime.org//media/events/logo-social-yellow_18.png",
     "organizers": [
-      "Jeanne d'Hack CTF"
+      "VolgaCTF.org"
     ],
-    "weight": 0.0,
+    "weight": 38.67,
     "is_open": true
+  },
+  {
+    "source": "Unstop",
+    "title": "Echiesta 2K26 \u2013 Cyber CTF Challenge",
+    "description": "About the Competition: ECHIESTA 2K26 &ndash; Cyber CTF Challenge is a structured cybersecurity competition conducted under ECHIESTA 2K26, the inter-college techno-cultural championship organized by the Department of Computer Science &amp; Engineering, Echelon Institute of Technology, Faridabad. The event follows a Jeopardy-style Capture The Flag (CTF) format designed to test practical cybersecurity skills in a competitive environment. Competition Format: Mode: Offline (On-Campus) Venue: Echelon Institute of Technology, Faridabad Duration: 3 Hours Team Size: 1&ndash;4 Members Format: Jeopardy-style CTF Categories: Web Exploitation, Cryptography, Digital Forensics, Reverse Engineering, OSINT, Miscellaneous Challenges Important &ndash; Registration Process: All participants are required to complete registration through the official ECHIESTA 2K26 website: Click here to register:Click Here Registration on the official website is mandatory for final participation and event confirmation. Important &ndash; Community &amp; Updates: For real-time announcements, rule clarifications, and event updates, participants must join the official WhatsApp community: Join Official Community:Click Here All major updates regarding the CTF, reporting time, venue details, and platform instructions will be announced through the official community. Do Not Forget to Read the Rules: All participants are strongly advised to carefully review the complete rules and guidelines before the event. Violation of rules may lead to disqualification. Event Day Instructions: Participants must report to the venue on time with a valid college ID. Further instructions regarding platform access, credentials, and problem release will be announced at the venue.",
+    "start_date": "2026-03-28T15:26:23+05:30",
+    "end_date": "2026-03-28T15:26:23+05:30",
+    "url": "https://unstop.com/hackathons/echiesta-2k26-cyber-ctf-challenge-echiesta-2k26-echelon-institute-of-technology-1647382",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-699d2d4de4180_screenshot_2026-02-24_101626.png",
+    "organizers": [
+      "Echelon Institute Of Technology Faridabad"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "\u20b95,000 | \u20b93,000",
+    "fee": "Free",
+    "registrations": 246
+  },
+  {
+    "source": "Unstop",
+    "title": "Capture The Flag",
+    "description": "About the Event: A Capture The Flag competition where participants hack a vulnerable virtual machine to obtain flags Focuses on practical penetration testing skills Participants work on exploiting vulnerabilities in a controlled environment Mode and Duration: Mode: Offline Duration: 12 hours Inter-college team members are allowed System Requirements: Laptop with VirtualBox installed Attacker virtual machine such as Kali Linux or Parrot OS recommended Ability to configure isolated virtual machine networking Guidelines: Bring your own device and extension box The challenge virtual machine must run in an isolated network SecureBoot is not allowed Key Rules: Do not attack the scoreboard Do not share flags as they are unique and one-time use",
+    "start_date": "2026-03-28T21:00:00+05:30",
+    "end_date": "2026-03-28T21:00:00+05:30",
+    "url": "https://unstop.com/hackathons/capture-the-flag-savara-iiitdm-kancheepuram-1640013",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-698ca183b2c27_cybersecurity_club_logo.jpg",
+    "organizers": [
+      "IIITDM Kancheepuram"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "\u20b97,000 | \u20b95,000 | \u20b93,000",
+    "fee": "Free",
+    "registrations": 367
+  },
+  {
+    "source": "Unstop",
+    "title": "Capture The Flag",
+    "description": "A Capture The Flag (CTF) event is a puzzle based competition where participants solve challenges in various fields, such as coding, logic, and problem-solving. It is a cybersecurity competition to find weaknesses and exploit loopholes in various computer programs. CTF aims to engage participants in the creative exploration of real-world computer security by distilling the significant disciplines of professional cybersecurity into short, objectively measurable exercises. It will be a &lsquo;Jeopardy!&rsquo; style event. Limited Seats ! It is an Offline Event First Come First Serve There will be a set of challenges from different categories like cryptography, web security, forensics, steganography, reverse engineering, binary exploits, etc. The challenges can either be a collection of downloadable files to find the &ldquo;flag&rdquo; or running it as web services in which the participants try to connect and exploit to retrieve the Flag. The participants will be ranked based on their scores, and the time taken will be used as a tiebreaker. Event Categories: Steganography Cryptography Reverse Engineering OSINT Web Exploitation (Offensive Security , Defensive Security) Team Composition Rules: Team Name: Teams must choose a unique name that is appropriate and not offensive. No impersonation of other teams or organizations. Team Size: Minimum 2 &amp;&nbsp;Maximum 4&nbsp;members per team Individual Participant not Allowed. Team Formation: Teams must be formed and registered before the competition starts. No last-minute changes unless approved by organizers. No player can be part of multiple teams. Eligibility: Open to students only. Participants must comply with the event&rsquo;s code of conduct CTF Challenge Rules: Installation Needed:&nbsp;kali Linux (Usage for participating the CTF Event) Fair Play &amp; Restrictions: DO NOT Attack the event infrastructure (e.g., DoS, brute-forcing, exploiting unintended vulnerabilities). Any team violating this rule will be banned immediately. Flag Submission: Flags must be submitted via the official CTF platform only. Hints &amp; Assistance: Challenge hints may be released at the organizer&rsquo;s discretion. General Conduct: No flag sharing, collaboration with other teams, or external assistance. Sharing flags or solutions is considered as cheating and may result in disqualification. Respect other teams and organizers&mdash;Improper behavior may lead to disqualification. Final Decisions: The organizers decisions are final in case of disputes or rule violations. Incorrect Flag Submission Penalty: Repeated abuse or flag guessing may lead to point deductions or disqualification Permitted Tools &amp; Resources: Participants are required to bring their own laptops or devices. While the college Wi-Fi will be accessible, it is recommended to have a personal mobile hotspot as a backup in case of connectivity issues. Pre-written scripts are allowed. Judging Criteria: Each category contains a variety of challenges of different point values and difficulties. Participants will be ranked based on their scores, and the time taken to solve the challenge will be considered in case of a tie. The decision of the organizers will be final.",
+    "start_date": "2026-03-28T23:59:00+05:30",
+    "end_date": "2026-03-28T23:59:00+05:30",
+    "url": "https://unstop.com/hackathons/capture-the-flag-arunai-engineering-college-1651423",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69a59efe25bb2_f62b1f8f-cd38-4387-a2ab-6f95288a338a.jpg",
+    "organizers": [
+      "Arunai Engineering College"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "Not specified",
+    "fee": "Paid",
+    "registrations": 13
+  },
+  {
+    "source": "Unstop",
+    "title": "Cyber Conquest",
+    "description": "About CyberConquest: CyberConquest is a high\u2011intensity cybersecurity competition designed to simulate real\u2011world investigative and offensive security scenarios. The event is structured into two rigorous phases &mdash; an Offline Digital Forensics Investigation followed by an Advanced Capture\u2011the\u2011Flag (CTF) round. The competition is built to test participants on analytical thinking, technical depth, teamwork, and endurance, making it an ideal platform to identify top cybersecurity talent. Objectives: Promote hands\u2011on cybersecurity skills among students Bridge the gap between academic learning and real\u2011world security challenges Identify and reward exceptional talent in Digital Forensics and Offensive Security Provide sponsors with visibility among highly motivated, technically skilled participants Team Composition: Team Size: 1&ndash;3 members per team Participation Type: Student teams Cross\u2011year teams are allowed, inter-college teams are not allowed. Event Structure (Two\u2011Phase Model): Phase 1: Digital Forensics Investigation Mode: Offline (On\u2011site) Duration: 6 Hours Difficulty Level: Intermediate &rarr; Advanced Overview: Teams are presented with simulated cybercrime scenarios and digital evidence. Participants must analyze, extract, and interpret forensic artifacts to answer investigative questions. Key Skill Areas Tested: Disk &amp; File System Forensics Memory Analysis Network Traffic Analysis Log &amp; Timeline Reconstruction Data Recovery &amp; Correlation Outcome: Teams are ranked based on accuracy, depth of analysis, and completeness Top 4&ndash;8 teams qualify for Phase 2 (number depends on total participation) Phase 2: Capture\u2011the\u2011Flag (CTF) Round Mode: Offline (On\u2011site) Duration: 8 Hours Difficulty Level: Intermediate &rarr; Advanced Overview: Qualified teams compete in a high\u2011pressure CTF environment featuring realistic security challenges inspired by industry and competitive hacking scenarios. Challenge Domains: Digital Forensics Web Exploitation Binary Exploitation Cryptography Reverse Engineering OSINT &amp; Miscellaneous Security Challenges Scoring Model: Dynamic scoring based on challenge difficulty Rules &amp; Regulations (General): Teams must consist of a maximum of 3 members All activities must remain within the scope of provided challenges Internet access may be restricted or monitored during offline rounds Use of any Large Language Model (LLM), AI assistant, or generative AI tool (online or offline) is strictly prohibited Use of automated attack tools may be restricted depending on challenge rules Any form of cheating, collusion, or rule violation leads to immediate disqualification Judges&rsquo; decisions are final and binding Phase\u2011Specific Rules: Phase 1 &ndash; Forensics Rules Evidence files must not be altered or corrupted Only analysis is permitted; brute\u2011forcing unrelated systems is prohibited External data sharing between teams is strictly forbidden Phase 2 &ndash; CTF Rules Attacking the competition infrastructure is prohibited Flag sharing between teams is strictly disallowed Teams must rely solely on their own skills and tools Prize Pool (Indicative):Price pool will be subject to the number of participants if number of participants is not adequate the competition will get cancelled and the money will be refunded to you bank account Total Prize Pool: \u20b922,000+ (subject to sponsorship) Winner: \u20b910,000 Cash Prize + Certificates + Goodies* Runner\u2011up: \u20b97,000 Cash Prize + Certificates + Goodies* Second Runner\u2011up: \u20b95,000 Cash Prize + Certificates + Goodies* Goodies will be awarded if provided by sponsors and may also be extended to other outstanding performers, at the discretion of the organizers. Sponsorship Opportunities: CyberConquest offers sponsors: Direct engagement with top cybersecurity talent Brand visibility across event materials, banners, and digital promotions Opportunity to sponsor challenges, prizes, or special awards Recognition during opening and closing ceremonies (Custom sponsorship tiers can be designed upon request.) Target Audience: Undergraduate students Cybersecurity enthusiasts Competitive CTF players Digital forensics and SOC aspirants Event Snapshot: Event Name: CyberConquest Format: Offline, Two\u2011Phase Phase 1: Digital Forensics &ndash; 6 Hours Phase 2: CTF &ndash; 8 Hours Team Size: 1&ndash;3 Members Qualification: Top 4&ndash;8 teams advance to CTF",
+    "start_date": "2026-03-29T18:00:00+05:30",
+    "end_date": "2026-03-29T18:00:00+05:30",
+    "url": "https://unstop.com/hackathons/cyber-conquest-technovate-70-international-institute-of-information-technology-iiit-naya-raipur-1649494",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69b559b86d7e6_60res.png",
+    "organizers": [
+      "International Institute of Information Technology (IIIT), Naya Raipur"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "\u20b910,000 | \u20b97,000 | \u20b95,000",
+    "fee": "Paid",
+    "registrations": 2
+  },
+  {
+    "source": "Unstop",
+    "title": "HackZero'26 CTF",
+    "description": "HackZero&rsquo;26, is a flagship a two-day cybersecurity experience bought by OWASP VIT Bhopal Chapter. From learning directly from industry experts to battling in an intense 24-hour Capture The Flag (CTF) challenge, HackZero is designed to test your skills, creativity, and ability to think like a hacker. Get ready to competing against some of the brightest minds in cybersecurity. Whether you're a beginner exploring ethical hacking or an experienced security professional HackZero&rsquo;26 is open for all. #HackZero #OWASPVITB Event Structure: Day 1 - Speaker Sessions (28th March, 2026) Expert speaker session. Day 2 - 24-Hour CTF (29th March, 2026 00:00:00 - 23:59:59) Day 2 will be a 24-hour Capture The Flag competition. Teams solve technical security challenges across multiple domains. Eligibility: Open to undergraduate and postgraduate students from any college or university. Cross-college and cross-specialization teams are both allowed. Team size: 1&ndash;4 membersMeet our sponsors:Core Sponsors:Altered Security - https://www.alteredsecurity.com/APISEC University - https://www.apisecuniversity.com/Defhawk - https://defhawk.com/HackerDNA - http://hackerdna.com/Hackviser - https://hackviser.com/Vibe Security - https://vibsecurity.com/https://vibsecurity.com/Community Partners:HackwithIndia - https://hackwithindia.com/Unstop - https://unstop.com/Platform Partner:CTFD - http://ctfd.io/ For queries:&nbsp; Contact us: owaspclub@vitbhopal.ac.in",
+    "start_date": "2026-03-29T23:59:00+05:30",
+    "end_date": "2026-03-29T23:59:00+05:30",
+    "url": "https://unstop.com/hackathons/hackzero26-ctf-vit-bhopal-university-vit-bhopal-1659473",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69b66d8734e06_hackzero.png",
+    "organizers": [
+      "VIT Bhopal University (VIT), Bhopal"
+    ],
+    "weight": 0,
+    "onsite": false,
+    "prize": "Not specified",
+    "fee": "Free",
+    "registrations": 375
+  },
+  {
+    "source": "Unstop",
+    "title": "Technovate CTF",
+    "description": "Event Overview: Technovate CTF 2026 is a premier cybersecurity competition organized by Ramrao Adik Institute of Technology (RAIT), Nerul, as part of its annual technical festival, Technovate. This Capture The Flag (CTF) event brings together cybersecurity enthusiasts to tackle real-world challenges in a competitive and high-impact environment. The competition follows a Jeopardy-style format, where participants solve challenges across multiple domains and earn points based on difficulty. Challenges are designed to simulate practical scenarios in Reverse Engineering, Web Exploitation, OSINT, and Digital Forensics, ensuring a hands-on and industry-relevant experience. Event Structure: Hybrid Competition: The event will be conducted entirely in a hybrid format, allowing participants to compete either online or offline simultaneously: Offline at Ramrao Adik Institute of Technology (RAIT), Nerul, Navi Mumbai Online from any location The competition will feature progressive difficulty rounds, starting from easy challenges and advancing to medium and hard levels, testing participants&rsquo; technical skills, speed, and strategic problem-solving abilities. Key Highlights: Live scoreboard with real-time rankings First-blood recognition for top performers Optional hints for selected challenges Hosted on the GoPwnIt CTF platform for a seamless experience Dedicated Discord server for communication, announcements, and support Rewards: \u20b99,50,000 worth of prizes, rewards, and opportunities Why Participate: Solve real-world cybersecurity challenges Compete with top talent across institutions Gain hands-on experience in offensive security Win exciting prizes, certificates, and goodies Get recognized on a national-level platform Participation Note: Payment must be completed via the provided QR code Only teams with successful payment confirmation will be eligible to participate",
+    "start_date": "2026-04-02T15:00:00+05:30",
+    "end_date": "2026-04-02T15:00:00+05:30",
+    "url": "https://unstop.com/competitions/technovate-ctf-dy-patil-ramrao-adik-institute-of-technology-rait-navi-mumbai-1660710",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69bf68919a844_",
+    "organizers": [
+      "D.Y. Patil Ramrao Adik Institute of Technology (RAIT), Navi Mumbai"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "Not specified",
+    "fee": "Paid",
+    "registrations": 42
+  },
+  {
+    "source": "Unstop",
+    "title": "Crack-In 2.0 -Capture the Flag",
+    "description": "CRACK-IN 2.0 CTF 2026 is a competitive Jeopardy-style Capture The Flag (CTF) event organized by CyberHive, designed to test participants&rsquo; skills in real-world cybersecurity scenarios. This is the second edition of our flagship event, bringing together students and tech enthusiasts from across the country. Event Overview: Participants will solve challenges from multiple cybersecurity domains to uncover hidden &ldquo;flags&rdquo; (strings in a specific format). Each correct submission earns points, and participants climb the leaderboard based on their performance. Categories: Cryptography, Web Exploitation, Reverse Engineering, Digital Forensics, OSINT, Binary Exploitation,etc Eligibility: Open to all students and cybersecurity enthusiasts Participants from any college or technical background can join Both beginners and experienced participants are welcome Rules: Flags must be submitted on the official CTF platform Any form of flag sharing or solution exchange is strictly prohibited Attacks on infrastructure (DoS, brute force, etc.) are not allowed Any attempt to disrupt the competition will lead to disqualification Follow the official flag format unless specified otherwise Code of Conduct: Maintain professionalism and respect towards all participants No plagiarism, cheating, or unethical behavior Any misconduct may result in penalties or disqualification Participants must follow the instructions provided by the organizers",
+    "start_date": "2026-04-04T18:00:00+05:30",
+    "end_date": "2026-04-04T18:00:00+05:30",
+    "url": "https://unstop.com/competitions/crack-in-20-capture-the-flag-gyan-ganga-institute-of-technology-and-sciences-ggits-jabalpur-1662175",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69bc0855a5dd5_logoo.png",
+    "organizers": [
+      "Gyan Ganga Institute of Technology And Sciences (GGITS) Jabalpur"
+    ],
+    "weight": 0,
+    "onsite": false,
+    "prize": "Not specified",
+    "fee": "Free",
+    "registrations": 35
+  },
+  {
+    "source": "Unstop",
+    "title": "Capture The Flag (CTF)",
+    "description": "Hack. Analyze. Capture the Flag. Prove Your Cyber Skills. Capture The Flag (CTF) is a thrilling cybersecurity competition where participants test their hacking, analytical, and problem-solving skills by solving real-world security challenges and uncovering hidden &ldquo;flags.&rdquo; These flags are secret codes/strings that indicate a successfully solved challenge. Designed to be beginner-friendly yet engaging for experienced participants, the event offers a hands-on platform to explore practical aspects of cybersecurity in a competitive environment. This Jeopardy-style CTF will feature challenges across domains such as Web Security, Cryptography, Digital Forensics, OSINT, and Reverse Engineering. Participants will identify vulnerabilities, decode clues, and apply logical thinking to capture flags within the given time. Top-performing teams will win exciting prizes, goodies, and may also receive interview opportunities with a cybersecurity-based company, making it both a skill-building and career-oriented experience. Eligibility Criteria: All undergraduate college students are eligible, irrespective of their branch, class, and field of study Max total teams limit : 60 to 70 Guidelines/ Rules: Challenges cover domains of cybersecurity. Participants are expected to engage in fair play and ethical behavior throughout the competition. Any form of plagiarism, flag sharing, or solution sharing between teams will lead to immediate disqualification. Tampering with the competition platform, network, or college infrastructure is strictly not allowed. The use of AI tools (e.g., chatbots, code generators) is prohibited during the competition. Teams must submit flags only through the official CTF platform provided during the event. Mobile phones, external storage devices, and unauthorized electronic devices will not be permitted during the competition. Pen and paper will be provided to teams as required for rough work or calculations. Organizers&rsquo; decisions regarding scoring, rules, and results will be final and binding.",
+    "start_date": "2026-04-10T14:00:56+05:30",
+    "end_date": "2026-04-10T14:00:56+05:30",
+    "url": "https://unstop.com/hackathons/capture-the-flag-ctf-mkssss-cummins-college-of-engineering-for-women-ccoew-pune-1649076",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69a0ed7bd7d8a_Cummins_Woman_Engineering_College_Pune.jpeg",
+    "organizers": [
+      "MKSSS's Cummins College of Engineering for Women (CCOEW), Pune"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "\u20b98,000 | \u20b96,000 | \u20b94,000",
+    "fee": "Paid",
+    "registrations": 67
+  },
+  {
+    "source": "Unstop",
+    "title": "Surge CTF",
+    "description": "Welcome to the first-of-its-kind Capture The Flag (CTF) competition, proudly hosted by the Sci-Mat Club at BML Munjal University! This CTF is brought to you in partnership with Craw Security. Competition Format: Main Round: A Jeopardy-style competition of 6-8 hours where participants solve challenges to find hidden flags. Domains: Participants will be tested across multiple technical domains, including Cryptography, Reverse Engineering, Web Exploitation, Digital Forensics, and OSINT. Eligibility: Open to everyone. Participants must register in teams of 2 to 3 members. Inter-college teams are allowed, and students from any college/university can participate. Inter-specialization teams are allowed, and students from any stream can participate. Rules: Scoring &amp; Tie-Breaker: Points are awarded based on challenge difficulty. A time-based tie-breaker will be utilized to ensure a fair and rigorous ranking system. Fair Play: Cheating, including sharing flags, collaborating outside of team limits, or abusing system vulnerabilities, is strictly prohibited. Infrastructure Respect: Do not attack, disrupt, or brute-force the CTF platform itself, or other participants. Reporting Issues: Unethical activity or technical abuse should be reported to the organizers immediately. Final Decision: Organizers hold the final authority on disqualification or prize revocation for any violations.",
+    "start_date": "2026-04-11T17:30:00+05:30",
+    "end_date": "2026-04-11T17:30:00+05:30",
+    "url": "https://unstop.com/hackathons/surge-ctf-bml-munjal-university-bmu-gurgaon-1661878",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69bb7207cecea_black_png.png",
+    "organizers": [
+      "BML Munjal University (BMU), Gurgaon"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "Not specified",
+    "fee": "Free",
+    "registrations": 90
+  },
+  {
+    "source": "Unstop",
+    "title": "Kaalchakra: Capture The Flag",
+    "description": "Event Details: Online Prelims: March 28, 2026 Offline Finals: April 11, 2026 (NFSU Goa Campus) Team Size: 1-3 per team Entry Fee: \u20b9300 per team (excluding taxes) Instructions: Verify that all submitted details are accurate. Official updates will be routed to the Team Leader's email&nbsp; Prior to submitting the form, please complete the \u20b9300 registration fee. A valid UTR ID and a screenshot of the payment are required. Join the official Discord server for support. Guidelines &amp; Rules Eligibility The competition is open to all UG and PG students currently enrolled in recognized Indian institutions. Participants must register as a team of 1 to 3 members. Each participant may be part of only one team; no substitutions are allowed once the round begins. Valid College ID cards are mandatory for all teams qualifying for all the participants. Registration &amp; Support The official Discord server is the primary channel for all announcements and technical support. Support requests must be raised via the designated ticket system; personal messages (DMs) to organizers are strictly prohibited. By registering, you consent to the collection and use of personal data for verification and event communication. Event Structure The Online Qualifier will be conducted on 28 March, 2026, starting at 02:30 PM IST for a duration of 24 hours. The format is Jeopardy-style CTF with categories including RevEng, Web, Crypto, OSINT, Forensics, AI/ML, Miscellaneous &amp; more. Based on the leaderboard at freeze time, the Top 25 teams will be shortlisted for verification. Verified teams will receive official invite letters for the Offline Finals by April 2, 2026. Write-up Submission Shortlisted teams must submit detailed solution write-ups within 8 hours of the round ending to prove legitimacy. Write-ups must clearly explain the approach and methodology used; plagiarized or shared write-ups will lead to immediate disqualification. Failure to submit write-ups within the deadline will result in forfeiture of the final round invitation. Fair Play &amp; Technical Boundaries Sharing flags or solutions between teams is a major violation and will result in disqualification for all parties involved. Attacks against the scoreboard, registration servers, or event infrastructure (DDoS/DoS) are strictly prohibited. Automated scanners (e.g., SQLMap, DirBuster) and login brute-forcing are not permitted unless explicitly required by a challenge. The standard flag format is Kaal{s0m3_t3xt_h3r3} unless specified otherwise. Accommodation &amp; Travel All expenses related to travel and stay for the offline finals must be handled by the participants. The organizers will not provide accommodation facilities or travel reimbursements. General Rules The decision of the organizers regarding rule violations, scoring, and disputes is final and binding. Any abusive, problematic, or toxic behavior toward participants or staff will result in immediate disqualification. Participation implies full acceptance of these rules and any official updates communicated during the event. For any general queries, please contact: Yuvraj Singh: 8980875332",
+    "start_date": "2026-04-11T18:00:00+05:30",
+    "end_date": "2026-04-11T18:00:00+05:30",
+    "url": "https://unstop.com/hackathons/kaalchakra-capture-the-flag-national-forensic-science-university-goa-1648470",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69bab035d65dc_ctf_logo.png",
+    "organizers": [
+      "National Forensic science University, Goa"
+    ],
+    "weight": 0,
+    "onsite": false,
+    "prize": "\u20b9200,000",
+    "fee": "Paid",
+    "registrations": 44
+  },
+  {
+    "source": "Unstop",
+    "title": "Capture The Flag",
+    "description": "To catch a thief, you must think like a thief. To protect the future, you must master the craft. Whether you're a seasoned penetration tester or a curious newcomer looking to find your first vulnerability, you&rsquo;ve come to the right place.&nbsp;Whether you are a cryptography wizard or a binary exploitation expert, our offline, jeopardy-style arena is built to test the limits of your persistence and lateral thinking. Secure your spot, prove your skills, and let&rsquo;s see if you have what it takes to outsmart the architecture. The system is waiting, and the flags are hidden in plain sight. Do you have the persistence to bypass the architecture and claim your spot at the top of the rankings?Rules &amp; Guidelines This is an offline Capture The Flag (CTF) event. Participants must be physically present at the venue. No travel allowance, food, or accommodation will be provided by the organizers Participants must bring their own laptops and necessary tools/software required for solving challenges. Any form of cheating, plagiarism, or attacking the CTF infrastructure is strictly prohibited and may lead to immediate disqualification. Respect other participants and organizers and follow the instructions given during the event.",
+    "start_date": "2026-04-11T22:00:00+05:30",
+    "end_date": "2026-04-11T22:00:00+05:30",
+    "url": "https://unstop.com/competitions/capture-the-flag-axis26-vnit-nagpur-1642741",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69adf5f0b5daa_logo.jpg",
+    "organizers": [
+      "Visvesvaraya National Institute of Technology (VNIT), Nagpur"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "\u20b910,000",
+    "fee": "Free",
+    "registrations": 92
+  },
+  {
+    "source": "Unstop",
+    "title": "CTF Showdown",
+    "description": "Welcome to the first-of-its-kind Capture The Flag (CTF) competition, proudly hosted by the Sci-Mat Club at BML Munjal University! This CTF is brought to you in partnership with Craw Security. Competition Format: Main Round: A Jeopardy-style competition where participants solve challenges to find hidden flags. Domains: Participants will be tested across multiple technical domains, including Cryptography, Reverse Engineering, Web Exploitation, Digital Forensics, and OSINT. Structure: The event will be conducted in two intensive slots of 10 hours each, totaling a 24-hour competitive window. Eligibility: Open to everyone. Participants must register in teams of 2 to 3 members. Inter-college teams are allowed, and students from any college/university can participate. Inter-specialization teams are allowed, and students from any stream can participate. Rules: Scoring &amp; Tie-Breaker: Points are awarded based on challenge difficulty. A time-based tie-breaker will be utilized to ensure a fair and rigorous ranking system. Fair Play: Cheating, including sharing flags, collaborating outside of team limits, or abusing system vulnerabilities, is strictly prohibited. Infrastructure Respect: Do not attack, disrupt, or brute-force the CTF platform itself, or other participants. Reporting Issues: Unethical activity or technical abuse should be reported to the organizers immediately. Final Decision: Organizers hold the final authority on disqualification or prize revocation for any violations.",
+    "start_date": "2026-04-12T21:00:00+05:30",
+    "end_date": "2026-04-12T21:00:00+05:30",
+    "url": "https://unstop.com/hackathons/ctf-showdown-bml-munjal-university-bmu-gurgaon-1659102",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69b53506a29bf_image-removebg-preview.png",
+    "organizers": [
+      "BML Munjal University (BMU), Gurgaon"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "\u20b915,000 | \u20b910,000 | \u20b95,000",
+    "fee": "Paid",
+    "registrations": 6
+  },
+  {
+    "source": "Unstop",
+    "title": "CAPTURE THE FLAG",
+    "description": "Participation Rules This is an individual event (no teams allowed). Each participant must carry a valid college ID card. A participant can register only once. Use of personal laptop is allowed (bring your own device). Internet access will be provided (if required). Event Format The competition will consist of multiple cybersecurity challenges. Participants must find hidden &ldquo;flags&rdquo; (secret codes) to score points. Categories may include Cryptography, Web Exploitation, Forensics, Reverse Engineering, and Basic Programming. Flags will be in a specific format (e.g., FLAG{example_code}). Each correct flag submission earns points. Time Rules Total duration: 2&ndash;3 hours (as decided by organizers). The participant with the highest score will be declared the winner. In case of a tie, the participant who solved challenges in less time will rank higher. Scoring System Easy challenges: Low points. Medium challenges: Moderate points. Hard challenges: High points. Bonus challenges may be included. Rules &amp; Restrictions No collaboration or sharing of solutions. No attacking the competition platform or server. No denial-of-service (DoS) attempts. Brute-force attacks only if explicitly allowed. Any attempt to exploit infrastructure will lead to disqualification. Disqualification Cheating or discussing answers. Using unfair means. Misbehavior during the event. Violating cybersecurity ethics. Judging Criteria Total points scored. Speed of solving. Compliance with rules.",
+    "start_date": "2026-04-29T15:05:59+05:30",
+    "end_date": "2026-04-29T15:05:59+05:30",
+    "url": "https://unstop.com/hackathons/capture-the-flag-techlavya-ignite-2026-ramkrishna-mahato-government-engineering-college-purulia-1646060",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69980ee82e079_picsart_26-02-04_18-01-41-241.jpg.jpeg",
+    "organizers": [
+      "Ramkrishna Mahato Government Engineering College, Purulia"
+    ],
+    "weight": 0,
+    "onsite": true,
+    "prize": "Not specified",
+    "fee": "Free",
+    "registrations": 11
+  },
+  {
+    "source": "Unstop",
+    "title": "Amrita InCTF 2026 powered by TCS co-powered by NIQ",
+    "description": "Opportunity Description &ndash; InCTF 2026 InCTF 2026 (Indian Capture The Flag) is India&rsquo;s flagship cybersecurity competition, designed to identify, challenge, and nurture the next generation of security talent. Organized by Amrita Vishwa Vidyapeetham, Team bi0s, and Traboda Labs, this national-level competition brings together students to solve real-world security challenges. Participants will compete in a high-intensity Jeopardy-style Capture The Flag (CTF), testing their skills across domains like web security, cryptography, reverse engineering, binary exploitation, forensics, and more. Eligibility: Open to students across India Participants can compete: In teams (team size as specified on the platform) A basic understanding of cybersecurity concepts is recommended No prior professional experience required Competition Format: Jeopardy-style CTF Multiple categories, including: Web Exploitation Cryptography Reverse Engineering Binary Exploitation Digital Forensics Miscellaneous challenges Challenges vary in difficulty (easy &rarr; advanced) Each challenge carries points based on complexity Participants solve challenges to find flags and submit them for scoring Process &amp; Stages: Registration: Sign up on the platform and form your team (if applicable) Qualifier Round (Online): Open to all registered participants Solve challenges within the given time window Top teams advance to the next stage Final Round: Shortlisted teams compete in an advanced, high-difficulty CTF May include additional real-world or scenario-based challenges Results &amp; Recognition: Winners are announced based on leaderboard rankings Top performers gain recognition and opportunities Why Participate: Work on real-world cybersecurity challenges Gain exposure to industry-relevant problem-solving Compete with top talent across the country Opportunities to connect with leading cybersecurity professionals Potential hiring and internship opportunities for top performers",
+    "start_date": "2026-04-29T18:30:00+05:30",
+    "end_date": "2026-04-29T18:30:00+05:30",
+    "url": "https://unstop.com/hackathons/amrita-inctf-2026-powered-by-tcs-co-powered-by-niq-amrita-vishwa-vidhyapeetham-amritapuri-1661196",
+    "ctftime_url": null,
+    "type": "CTF / Cybersecurity",
+    "logo_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69ba246b653b7_inctf_logo-2.png",
+    "organizers": [
+      "Amrita Vishwa vidhyapeetham, Amritapuri"
+    ],
+    "weight": 0,
+    "onsite": false,
+    "prize": "Not specified",
+    "fee": "Free",
+    "registrations": 15
   }
 ]
