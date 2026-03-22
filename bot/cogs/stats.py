@@ -42,8 +42,10 @@ class Stats(commands.Cog):
         url = f"https://ctftime.org/team/{team_id}"
 
         try:
-            # Run cloudscraper in a thread to avoid blocking the event loop
-            html = await asyncio.to_thread(self._fetch_ctftime_html, url)
+            # Run cloudscraper in a thread to avoid blocking the event loop (Python 3.8 compatible)
+            html = await self.bot.loop.run_in_executor(
+                None, self._fetch_ctftime_html, url
+            )
 
             soup = BeautifulSoup(html, "html.parser")
 
